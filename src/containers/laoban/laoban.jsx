@@ -9,7 +9,7 @@ class LaoBan extends Component{
     }
     render(){
         return(
-            <UserList userList={this.props.userList}/>
+            <UserList userList={this.props.userList} />
         )
     }
 }

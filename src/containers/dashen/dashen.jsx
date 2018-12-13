@@ -9,7 +9,7 @@ import {getUserList} from '../../redux/actions'
     }
     render(){
         return(
-                <UserList userList={this.props.userList}/>
+                <UserList userList={this.props.userList} />
         )
     }
 }

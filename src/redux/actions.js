@@ -24,7 +24,7 @@ const authSuccess = (user) => ({type:AUTH_SUCCESS,data:user})
 const errorMsg = (msg) => ({type:ERROR_MSG,data:msg})
 
 const receiveUser = (user) => ({type:RECEIVE_USER,data:user})
-const resetUser = (msg) => ({type:RESET_USER,data:msg})
+export  const resetUser = (msg) => ({type:RESET_USER,data:msg})
 //接收用户列表的同步action
 const receiveUserList = (userlist) => ({type:RECEIVE_USERLIST,data:userlist})
 
